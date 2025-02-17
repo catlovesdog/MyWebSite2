@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Eun Soo Cho</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/simple-main.css">
+</head>
+<body class="before-load">
+	<div class="loading">
+		<svg class="loading-circle">
+			<circle cx="50%" cy="50%" r="25"></circle>
+		</svg>
+	</div>
+	<div class="container">
+		<section class="scroll-section" id="scroll-section-0">
+			<h1>Introduce<br/> Eun Soo Cho</h1>
+			<div class="sticky-elem sticky-elem-canvas">
+				<canvas id="video-canvas-0" width="1920" height="1080"></canvas>
+			</div>
+			<div class="sticky-elem main-message a">
+				<p>Over 7 years of experience in <br>design, engineering, and marketing</p>
+			</div>
+			<div class="sticky-elem main-message b">
+				<p>Finalist in international design challenges,<br>including Stanford and Fast Company</p>
+			</div>
+			<div class="sticky-elem main-message c">
+				<p>Strategic thinking driven <br>by powerful storytelling</p>
+			</div>
+			<div class="sticky-elem main-message d">
+				<p>How about learning more <br>over a cup of coffee?</p>
+			</div>
+		</section>
+		<section class="scroll-section" id="scroll-section-1">
+			<div class="sticky-elem main-message hero-message a">
+				<p>
+					<small>Reintroducing</small>
+					The Product Designer <br> & Creative Technologist <br> you’ve been waiting for
+				</p>
+			</div>
+			<div class="sticky-elem main-message b">
+				<p>
+					Design, creativity, and strategic thinking— <br> <br><small>Made in Korea  </small> 
+				</p>
+			</div>
+			<div class="sticky-elem main-message c">
+				<p>
+					With creativity, <br>I gift you a new world
+				</p>
+			</div>
+		</section>
+		<div class="normal-content">
+			<section>
+				<p class="mid-message" id="happy" style="cursor: pointer;">
+					<small>Visit Eun Soo's world → </small>
+				</p>
+			</section>
+			<section>
+				<p class="mid-message">
+				 	
+				</p>
+			</section>
+		</div>
+	</div>
+
+	<script src="js/simple-main.js"></script>
+	<script>
+		document.getElementById("happy").addEventListener("click", function(event) {
+			event.preventDefault(); // 기본 동작 방지
+			window.location.href = 'https://eunsoocho.creatorlink.net/'; // 바로 네이버로 이동
+		});
+	</script>
+</body>
+</html>
