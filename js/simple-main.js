@@ -80,7 +80,8 @@
 		let imgElem;
 		for (let i = 0; i < sceneInfo[0].values.videoImageCount; i++) {
 			imgElem = new Image();
-			imgElem.src = '/MyWebSite2/video/002/IMG_${7027 + i}.jpg';
+			imgElem.src = `/MyWebSite2/video/002/IMG_${7027 + i}.jpg`;
+			
 			sceneInfo[0].objs.videoImages.push(imgElem);
 		}
 	}
